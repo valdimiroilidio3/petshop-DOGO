@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Páginas que não devem aparecer nos resultados de busca
+Disallow: /404.html
+
+Sitemap: https://www.dogopetshop.pt/sitemap.xml

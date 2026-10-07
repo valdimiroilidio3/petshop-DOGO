@@ -1,0 +1,13 @@
+# Dependências de desenvolvimento (o site não tem runtime)
+node_modules/
+
+# Originais das imagens: não versionados. As derivadas WebP são geradas
+# com `python3 tools/build-assets.py` (ver README).
+assets/img/raw/
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/

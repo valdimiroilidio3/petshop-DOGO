@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marcar banho, tosa ou consulta veterinária | DOGO Coimbra</title>
+<meta name="description" content="Marque banho, tosa ou consulta veterinária no DOGO, em Coimbra. Escolha o dia e a hora disponíveis e receba confirmação por WhatsApp em menos de 2 horas.">
+<link rel="canonical" href="https://www.dogopetshop.pt/marcacoes.html">
+<meta name="theme-color" content="#ff7a2f">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_PT">
+<meta property="og:site_name" content="DOGO · Pet Shop &amp; Grooming">
+<meta property="og:title" content="Marcar banho, tosa ou consulta veterinária | DOGO Coimbra">
+<meta property="og:description" content="Escolha o serviço, o dia e a hora. Confirmação por WhatsApp em menos de 2 horas.">
+<meta property="og:url" content="https://www.dogopetshop.pt/marcacoes.html">
+<meta property="og:image" content="https://www.dogopetshop.pt/assets/img/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/nunito-900.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/nunito-sans-400.woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/styles.css">
+<script defer src="assets/js/main.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+
+<header class="topo">
+  <div class="contentor topo__interior">
+    <a class="logo" href="index.html">
+      <span class="logo__marca" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="#fff8f1">
+          <ellipse cx="7.4" cy="8.6" rx="2.1" ry="2.7"/><ellipse cx="11.4" cy="6.4" rx="2.1" ry="2.8"/>
+          <ellipse cx="15.6" cy="7.8" rx="2" ry="2.6"/>
+          <path d="M12 11.4c3.2 0 5.7 2.4 5.7 5.2 0 .9-.5 1.6-1.3 1.9-1.3.4-2.9.5-4.4.5s-3.1-.1-4.4-.5c-.8-.3-1.3-1-1.3-1.9 0-2.8 2.5-5.2 5.7-5.2Z"/>
+        </svg>
+      </span>
+      <span class="logo__nome">DOGO<span class="logo__lema">Pet Shop · Coimbra</span></span>
+    </a>
+
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="index.html">Início</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="loja.html">Loja</a>
+      <a href="contactos.html">Contactos</a>
+    </nav>
+
+    <a class="botao botao-topo" href="#form-marcacao">Marcar agora</a>
+
+    <button class="hamburguer" type="button" aria-expanded="false" aria-controls="menu-movel" aria-label="Abrir menu">
+      <span class="hamburguer__barras"></span>
+    </button>
+  </div>
+
+  <div class="menu-movel" id="menu-movel">
+    <div class="contentor">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="servicos.html">Serviços e preços</a></li>
+        <li><a href="loja.html">Loja</a></li>
+        <li><a href="marcacoes.html" aria-current="page">Marcar serviço</a></li>
+        <li><a href="contactos.html">Contactos</a></li>
+      </ul>
+      <a class="botao botao--bloco" href="#form-marcacao">Marcar banho &amp; tosa</a>
+      <p class="menu-movel__contactos">Seg–Sex 9h–19h · Sáb 9h–17h<br>
+        <a href="tel:+351912345678">+351 912 345 678</a></p>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <section class="seccao" style="padding-bottom:1rem">
+    <div class="contentor">
+      <div class="cabecalho-seccao" style="max-width:52rem">
+        <p class="etiqueta">Marcações</p>
+        <h1>Escolha o dia e a hora. Do resto tratamos nós.</h1>
+        <p>Preencha em menos de um minuto. Confirmamos por WhatsApp ou telefone em até <strong>2 horas úteis</strong> e dizemos-lhe o preço final antes de começar.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccao" style="padding-top:0" aria-labelledby="titulo-form">
+    <div class="contentor">
+      <h2 id="titulo-form" class="apenas-leitor">Formulário de marcação</h2>
+
+      <div class="grelha-2" style="grid-template-columns:1.35fr .85fr;align-items:start">
+
+        <!-- FORMULÁRIO ---------------------------------------------------- -->
+        <div>
+          <form class="formulario" id="form-marcacao" novalidate>
+            <h3 style="margin-bottom:1.2rem">Dados do tutor</h3>
+
+            <div class="formulario__grelha">
+              <div class="campo campo--largo">
+                <label for="nome">Nome completo <span aria-hidden="true">*</span></label>
+                <input type="text" id="nome" name="nome" autocomplete="name" required placeholder="Ex.: Maria Silva">
+                <p class="erro-campo" role="alert"></p>
+              </div>
+
+              <div class="campo">
+                <label for="telefone">Telefone <span aria-hidden="true">*</span></label>
+                <input type="tel" id="telefone" name="telefone" autocomplete="tel" required inputmode="tel" placeholder="912 345 678">
+                <p class="ajuda">É por aqui que confirmamos a marcação.</p>
+                <p class="erro-campo" role="alert"></p>
+              </div>
+
+              <div class="campo">
+                <label for="email">Email <span style="font-weight:400;color:#4b5b66">(opcional)</span></label>
+                <input type="email" id="email" name="email" autocomplete="email" placeholder="nome@exemplo.pt">
+                <p class="ajuda">Só se quiser receber o recibo por email.</p>
+                <p class="erro-campo" role="alert"></p>
+              </div>
+            </div>
+
+            <h3 style="margin:2rem 0 1.2rem">Sobre o seu animal</h3>
+
+            <div class="formulario__grelha">
+              <div class="campo">
+                <label for="animalNome">Nome do animal <span aria-hidden="true">*</span></label>
+                <input type="text" id="animalNome" name="animalNome" required placeholder="Ex.: Kira">
+                <p class="erro-campo" role="alert"></p>
+              </div>
+
+              <div class="campo">
+                <label for="tipo">Espécie <span aria-hidden="true">*</span></label>
+                <select id="tipo" name="tipo" required>
+                  <option value="">Escolha uma opção…</option>
+                  <option value="Cão">Cão</option>
+                  <option value="Gato">Gato</option>
+                  <option value="Outro">Outro animal de companhia</option>
+                </select>
+                <p class="erro-campo" role="alert"></p>
+              </div>
+
+              <fieldset class="campo campo--largo" style="border:0;padding:0;margin:0">
+                <legend>Porte do animal <span aria-hidden="true">*</span></legend>
+                <div class="opcoes-radios">
+                  <label class="opcao-radio"><input type="radio" name="porte" value="Pequeno" required><span>Pequeno · até 10&nbsp;kg</span></label>
+                  <label class="opcao-radio"><input type="radio" name="porte" value="Médio"><span>Médio · 10–25&nbsp;kg</span></label>
+                  <label class="opcao-radio"><input type="radio" name="porte" value="Grande"><span>Grande · mais de 25&nbsp;kg</span></label>
+                </div>
+                <p class="ajuda">Serve para lhe indicarmos o preço certo desde já.</p>
+                <p class="erro-campo" role="alert"></p>
+              </fieldset>
+
+              <div class="campo campo--largo">
+                <label for="servico">Serviço pretendido <span aria-hidden="true">*</span></label>
+                <select id="servico" name="servico" required>
+                  <option value="">Escolha um serviço…</option>
+                  <option value="Banho simples">Banho simples — desde 15 €</option>
+                  <option value="Banho + escovagem completa">Banho + escovagem completa — desde 18 €</option>
+                  <option value="Banho + tosa completa">Banho + tosa completa — desde 35 €</option>
+                  <option value="Tosa higiénica">Tosa higiénica — desde 20 €</option>
+                  <option value="Tosa completa">Tosa completa — desde 28 €</option>
+                  <option value="Corte de unhas e limpeza de ouvidos">Corte de unhas e limpeza de ouvidos — 9 €</option>
+                  <option value="Consulta veterinária">Consulta veterinária — 35 €</option>
+                  <option value="Vacinação ou microchip">Vacinação ou microchip</option>
+                  <option value="Ainda não sei / preciso de conselho">Ainda não sei — quero um conselho</option>
+                </select>
+                <p class="erro-campo" role="alert"></p>
+              </div>
+
+              <div class="campo">
+                <label for="data">Data pretendida <span aria-hidden="true">*</span></label>
+                <input type="date" id="data" name="data" required>
+                <p class="ajuda" id="data-ajuda">Segunda a sábado. Escolha um dia para ver os horários livres.</p>
+                <p class="erro-campo" role="alert"></p>
+              </div>
+
+              <div class="campo" style="justify-content:flex-start">
+                <span style="font-weight:700;font-size:.95rem">Recolha ao domicílio</span>
+                <label style="display:flex;gap:.6rem;align-items:flex-start;font-weight:400;font-size:.95rem">
+                  <input type="checkbox" name="recolha" value="sim" style="width:1.15rem;height:1.15rem;margin-top:.2rem;accent-color:#0b7a80">
+                  <span>Quero que vão buscar e devolvam o meu animal em Coimbra (3&nbsp;€, grátis com banho + tosa)</span>
+                </label>
+              </div>
+
+              <fieldset class="campo campo--largo" style="border:0;padding:0;margin:0" data-grupo-horario>
+                <legend id="slots-legenda">Horários disponíveis <span aria-hidden="true">*</span></legend>
+                <div class="slots" id="slots">
+                  <p class="slots__vazio">Escolha primeiro a data para ver os horários livres.</p>
+                </div>
+                <p class="erro-campo" role="alert"></p>
+              </fieldset>
+
+              <div class="campo campo--largo">
+                <label for="notas">Notas para a equipa <span style="font-weight:400;color:#4b5b66">(opcional)</span></label>
+                <textarea id="notas" name="notas" placeholder="Ex.: tem medo do secador, prefiro perfume sem álcool, costuma roer as patas…"></textarea>
+              </div>
+
+              <div class="campo campo--largo">
+                <label class="nota-privacidade">
+                  <input type="checkbox" name="consentimento" required>
+                  <span>Autorizo o DOGO a guardar estes dados para gerir a minha marcação, nos termos da <a href="contactos.html#privacidade">política de privacidade</a>. <span aria-hidden="true">*</span></span>
+                </label>
+                <p class="erro-campo" role="alert"></p>
+              </div>
+            </div>
+
+            <div class="armadilha" aria-hidden="true">
+              <label for="website">Não preencher</label>
+              <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+            </div>
+
+            <p style="margin-top:1.6rem">
+              <button class="botao botao--grande botao--bloco" type="submit">Enviar pedido de marcação</button>
+            </p>
+            <p style="font-size:.875rem;color:#4b5b66;text-align:center;margin-top:.9rem">
+              Não fazemos marketing com os seus dados e não os partilhamos com terceiros.
+            </p>
+          </form>
+
+          <!-- CONFIRMAÇÃO ------------------------------------------------- -->
+          <div class="sucesso" id="marcacao-sucesso" role="status" aria-live="polite">
+            <span class="sucesso__icone" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="38" height="38" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12.5 5 5L20 6.5"/></svg>
+            </span>
+            <h3>Pedido enviado! Já só falta confirmarmos.</h3>
+            <p>Recebemos os seus dados. Vamos verificar a disponibilidade e responder em até 2 horas úteis.</p>
+
+            <div class="sucesso__resumo"></div>
+
+            <p><strong>Quer garantir já a vaga?</strong> Envie o resumo por WhatsApp — respondemos de imediato durante o horário de loja.</p>
+            <p style="display:flex;gap:.8rem;flex-wrap:wrap;justify-content:center;margin-top:1rem">
+              <a class="botao" data-wa-confirmar href="https://wa.me/351912345678" target="_blank" rel="noopener">Confirmar por WhatsApp</a>
+              <button class="botao botao--contorno" type="button" data-nova-marcacao>Fazer outra marcação</button>
+            </p>
+          </div>
+        </div>
+
+        <!-- LATERAL ------------------------------------------------------- -->
+        <aside aria-labelledby="titulo-ajuda">
+          <h2 id="titulo-ajuda" style="font-size:1.35rem">Prefere falar com uma pessoa?</h2>
+          <p>Atendemos o telefone durante o horário de loja. Para pedidos rápidos, o WhatsApp é o mais rápido — respondemos com o preço e a vaga disponível.</p>
+
+          <p style="display:grid;gap:.7rem;margin:1.3rem 0">
+            <a class="botao botao--teal" data-wa data-wa-mensagem="Olá DOGO! Queria marcar um serviço para o meu animal." href="#form-marcacao">Falar no WhatsApp</a>
+            <a class="botao botao--contorno" href="tel:+351912345678">Ligar · +351 912 345 678</a>
+          </p>
+
+          <div class="cartao" style="padding:1.3rem;margin-bottom:1.3rem">
+            <h3 style="font-size:1.05rem">Horário de loja</h3>
+            <table class="horarios">
+              <caption class="apenas-leitor">Horário de funcionamento</caption>
+              <tbody>
+                <tr data-dia="1"><th scope="row">Segunda a sexta</th><td>9h–19h</td></tr>
+                <tr data-dia="6"><th scope="row">Sábado</th><td>9h–17h</td></tr>
+                <tr data-dia="0"><th scope="row">Domingo</th><td>Fechado</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="avisos" style="grid-template-columns:1fr">
+            <div class="aviso">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#b8420a" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l9 16H3z"/><path d="M12 9v5M12 17h.01"/></svg>
+              <div><strong>Urgências fora de horas</strong>Ligue e indicamos o hospital veterinário de serviço em Coimbra.</div>
+            </div>
+            <div class="aviso">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#b8420a" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9h13v8H3zM16 11h3l2 3v3h-5z"/><circle cx="6.5" cy="18.5" r="1.6"/><circle cx="17.5" cy="18.5" r="1.6"/></svg>
+              <div><strong>Recolha em casa por 3&nbsp;€</strong>Em Coimbra cidade. Grátis quando marca banho + tosa.</div>
+            </div>
+            <div class="aviso">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#b8420a" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h9l4 4v12H6z"/><path d="M14 4v5h5"/><path d="M9 13h7M9 17h5"/></svg>
+              <div><strong>Traga o boletim</strong>Se for a primeira consulta veterinária, traga o boletim sanitário e as vacinas anteriores.</div>
+            </div>
+          </div>
+
+          <p style="font-size:.9rem;color:#4b5b66;margin-top:1.3rem">
+            Marcações canceladas com menos de 4 horas de antecedência podem ser cobradas a 50&nbsp;%, porque a vaga fica reservada.
+          </p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <div class="contentor rodape__grelha">
+    <div>
+      <div class="rodape__marca">
+        <span class="logo__marca" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="#fff8f1">
+            <ellipse cx="7.4" cy="8.6" rx="2.1" ry="2.7"/><ellipse cx="11.4" cy="6.4" rx="2.1" ry="2.8"/><ellipse cx="15.6" cy="7.8" rx="2" ry="2.6"/>
+            <path d="M12 11.4c3.2 0 5.7 2.4 5.7 5.2 0 .9-.5 1.6-1.3 1.9-1.3.4-2.9.5-4.4.5s-3.1-.1-4.4-.5c-.8-.3-1.3-1-1.3-1.9 0-2.8 2.5-5.2 5.7-5.2Z"/>
+          </svg>
+        </span>
+        <span class="logo__nome" style="font-size:1.4rem">DOGO</span>
+      </div>
+      <p style="font-size:.95rem">Pet shop, banho &amp; tosa e consultas veterinárias no centro de Coimbra. Cuidamos do seu animal com tempo e carinho desde 2016.</p>
+      <div class="rodape__redes">
+        <a href="https://www.instagram.com/" rel="noopener" target="_blank" aria-label="Instagram do DOGO">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://www.facebook.com/" rel="noopener" target="_blank" aria-label="Facebook do DOGO">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7h2.5l.5-3h-3V9.2c0-.9.3-1.4 1.5-1.4H17V5.1C16.6 5 15.6 5 14.6 5c-2.3 0-3.9 1.3-3.9 3.9V11H8v3h2.7v7h2.8Z"/></svg>
+        </a>
+        <a data-wa data-wa-mensagem="Olá DOGO! Vim pelo site e gostaria de falar convosco." href="#form-marcacao" aria-label="Falar connosco no WhatsApp">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.9-1.4A10 10 0 1 0 12 2Zm5.2 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.7-.1a12 12 0 0 1-4.3-2.7 10 10 0 0 1-2-3.1c-.2-.7-.2-1.4.1-1.9.2-.3.5-.6.7-.8.2-.2.6-.2.8.1l1 1.6c.1.3.1.5 0 .7l-.4.6c-.2.2-.2.4 0 .6.4.6 1 1.2 1.6 1.6.2.2.4.1.6 0l.6-.5c.2-.2.4-.2.7-.1l1.6.9c.3.2.4.5.3.8Z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <nav aria-label="Serviços">
+      <h3>Serviços</h3>
+      <ul>
+        <li><a href="servicos.html#banho">Banho &amp; tosa</a></li>
+        <li><a href="servicos.html#veterinaria">Veterinária</a></li>
+        <li><a href="servicos.html#precos">Preçário</a></li>
+        <li><a href="servicos.html#faq">Perguntas frequentes</a></li>
+      </ul>
+    </nav>
+
+    <nav aria-label="Loja e marcações">
+      <h3>Loja</h3>
+      <ul>
+        <li><a href="loja.html">Produtos</a></li>
+        <li><a href="loja.html#entrega">Entregas e devoluções</a></li>
+        <li><a href="marcacoes.html">Marcar serviço</a></li>
+        <li><a href="contactos.html">Contactos</a></li>
+      </ul>
+    </nav>
+
+    <div>
+      <h3>Contactos</h3>
+      <ul>
+        <li><a href="tel:+351912345678">+351 912 345 678</a></li>
+        <li><a href="mailto:ola@dogopetshop.pt">ola@dogopetshop.pt</a></li>
+        <li>Rua da Sofia 42<br>3000-390 Coimbra</li>
+      </ul>
+      <table class="horarios" style="font-size:.9rem;margin-top:.5rem">
+        <caption class="apenas-leitor">Horário de funcionamento</caption>
+        <tbody>
+          <tr data-dia="1"><th scope="row">Seg–Sex</th><td>9h–19h</td></tr>
+          <tr data-dia="6"><th scope="row">Sábado</th><td>9h–17h</td></tr>
+          <tr data-dia="0"><th scope="row">Domingo</th><td>Fechado</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="contentor rodape__base">
+    <p>© <span data-ano>2026</span> DOGO · Pet Shop &amp; Grooming. Todos os direitos reservados.</p>
+    <p>Site sem cookies de rastreio · <a href="contactos.html#privacidade">Privacidade</a></p>
+  </div>
+</footer>
+
+<button class="voltar-topo" type="button" aria-label="Voltar ao topo">
+  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+</body>
+</html>

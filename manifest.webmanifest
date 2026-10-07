@@ -1,0 +1,16 @@
+{
+  "name": "DOGO · Pet Shop & Grooming",
+  "short_name": "DOGO",
+  "description": "Pet shop em Coimbra com banho & tosa, veterinária e loja. Marque serviços e encomende produtos.",
+  "lang": "pt-PT",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff8f1",
+  "theme_color": "#ff7a2f",
+  "icons": [
+    { "src": "assets/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/img/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
