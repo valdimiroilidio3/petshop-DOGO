@@ -1,0 +1,22 @@
+{
+  "name": "dogopetshop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site do DOGO · Pet Shop & Grooming (Coimbra) — HTML, CSS e JavaScript sem build step",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 4173",
+    "serve": "python3 -m http.server 4173",
+    "check": "node tools/check-site.mjs",
+    "test": "node tools/test-marcacao.mjs",
+    "assets": "python3 tools/build-assets.py",
+    "verify": "npm run check && npm test"
+  },
+  "devDependencies": {
+    "jsdom": "^24.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
